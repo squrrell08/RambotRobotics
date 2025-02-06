@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Light grey background */
@@ -9,11 +9,13 @@ body {
 header {
     background-color: #333; /* Dark grey background for header */
     color: goldenrod; /* Goldenrod text for header */
+    padding: 20px 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     background-color: #222; /* Darker grey for navigation */
@@ -26,13 +28,20 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: goldenrod; /* Goldenrod color for links */
+    font-weight: bold;
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
 h1 {
     color: black; /* Black color for headings */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
